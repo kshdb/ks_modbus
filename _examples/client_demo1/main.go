@@ -22,7 +22,6 @@ func main() {
 	}
 	defer handler.Close()
 	client := modbus.NewClient(handler)
-	// client.WriteSingleRegister(10, uint16(1001))
 	//写指令
 	client.WriteMultipleRegisters(1, 1, []byte{46, 63})
 	for {

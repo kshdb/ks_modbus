@@ -52,7 +52,7 @@ Bit access:
 ---
 
 
-modbus RTU/ASCII client see [example](_examples/client_rtu_ascii)
+modbus RTU/ASCII client see [demo](_examples/client_rtu_ascii)
 
 [embedmd]:# (_examples/client_rtu_ascii/main.go go)
 ```go
@@ -100,7 +100,7 @@ func main() {
 ```
 
 
-modbus TCP client see [example](_examples/client_tcp)
+modbus TCP client see [demo](_examples/client_tcp)
 
 [embedmd]:# (_examples/client_tcp/main.go go)
 ```go
@@ -137,7 +137,7 @@ func main() {
 }
 ```
 
-modbus TCP server see [example](_examples/server_tcp)
+modbus TCP server see [demo](_examples/server_tcp)
 
 [embedmd]:# (_examples/server_tcp/main.go go)
 ```go

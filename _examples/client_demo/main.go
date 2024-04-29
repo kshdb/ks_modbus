@@ -18,7 +18,7 @@ func main() {
 	defer client.Close()
 
 	//写入保持寄存器
-	client.WriteMultipleRegistersBytes(1, 5, 1, []byte{46, 63})
+	client.WriteMultipleRegistersBytes(2, 0, 2, []byte{00, 01, 00, 02})
 	for {
 		_results, err := client.ReadHoldingRegistersBytes(1, 0, 10)
 		if err != nil {
